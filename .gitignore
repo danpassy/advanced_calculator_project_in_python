@@ -1,0 +1,40 @@
+# Python (ignore les fichiers bytecode Python et les bibliotheques compilées
+_ _pycache_ _/
+*.py[cod]
+*.so
+
+# Environnements virtuels ( exclut les dossiers d'environnements virtuels Python
+venv/
+env/
+.env
+
+# Fichiers de configuration IDE (ignore les fichiers de configuration spécifiques
+.vscode/
+.idea/
+
+# Fichiers de logs et temporaires ( Exclut les de logs et les fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers d'historique de la calculatrice (ignore le fichier d'historique spécifique à la calculatrice
+history.txt
+
+# Fichiers de build (exclut les dossiers et fichiers générés lors de la construction ou de l'empaquetaage du prohet
+build/
+dist/
+*.egg-info
+
+#Fichiers spécifiques à Ubuntu(ignore les fichiers système spécifique à Ubuntu
+.directory
+.Trash-*
+
+#Fichiers de sauvegarde( exlut les fichiers de sauvegarde temporarie
+*~
+
+# Fichiers de swap de vim
+*.swp
+*.swo
+
+
+
+
